@@ -23,10 +23,10 @@ st.markdown("**Name:** `AIDA KAMILA FILZA BINTI ABDUL MANAF` | **Student ID:** `
 st.subheader("Graph Reference Image")
 st.info("Below is the sample graph used for BFS and DFS traversal demonstrations.")
 try:
-    image = Image.open(r"C:\Users\aidak\OneDrive\Desktop\AI\LabReport_BSD2513_#1.jpg")  
+    image = Image.open('LabReport_BSD2513_#1.jpg')  
     st.image(image, caption="Graph used for BFS and DFS Traversal", use_column_width=True)
 except Exception:
-    st.warning("⚠️ Image 'BFS_img1.jpg' not found. Place it in the same directory as this file.")
+    st.warning("⚠️ Image 'LabReport_BSD2513_#1.jpg' not found. Place it in the same directory as this file.")
 
 # ------------------------------------------------------------
 # Graph Definition
